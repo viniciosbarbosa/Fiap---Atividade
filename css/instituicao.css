@@ -1,0 +1,29 @@
+:root{
+    --preto:#1C1C1C;
+}
+
+
+.banner__instituicao{
+    padding: 15px;
+}
+
+.bloco__txt h1{
+    font-family: 'Roboto Serif', sans-serif;
+    text-align: left;
+    margin: 20px 0px 10px;
+}
+
+.bloco__txt span {
+    color:var(--preto);
+    font-family: 'Roboto Serif', sans-serif;
+    display: block;
+    text-align: justify;
+    line-height: 1.5;
+    max-width: 90%;
+}
+
+@media screen and (max-width:550px){
+    .bloco__txt span{
+        max-width: 100%;
+    }
+}

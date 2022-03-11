@@ -1,0 +1,135 @@
+.menu-list-dash{
+    text-align: left;
+   
+}
+
+.menu-list-dash ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu-list-dash ul li:first-child{
+    margin-top: 1rem;
+}
+
+.menu-list-dash ul li {
+    margin-bottom: 5px;
+}
+
+.a-link{
+    color: white !important;
+    text-decoration: none;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    transition: .3s;
+    display: block;
+}
+
+
+.a-link:hover{
+    transform: scale(1.05);
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.imgDash{
+    border-radius: 50%;
+    max-width: 250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+    transition: .3s;
+}
+
+.imgDash:hover{
+    transform: scale(1.05);
+}
+
+.sideBar{
+    background-color: var(--pretoclaro);
+    height:85vh;
+}
+
+.cards{
+    margin-top: 25px;
+}
+
+.cardDash{
+    border: 0.5px solid var(--pretoclaro);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: .3s;
+    padding: 10px;
+    max-width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+.cardDash span{
+    color: var(--preto);
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    font-weight: 600;
+}
+
+.cardDash p {
+    color: var(--preto);
+    padding: 10px;
+    text-align: justify;
+}
+
+.cardDash:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.05);
+}
+
+.footer{
+    background-color: var(--headerFooter);
+    padding: 10px 15px 0px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+@media screen and (min-width:1900px){
+    .sideBar{
+        height: 90vh
+    }
+
+    .imgDash{
+        max-width: 450px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .cardDash{
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .imgDash{
+        max-width: 250px;
+        height: 250px;
+    }
+
+    .menu-list-dash ul li:first-child{
+        margin-top: 0px;
+    }
+
+    .menu-list-dash ul li{
+        margin-top: 10px;
+    }
+    .sideBar{
+        height: auto;
+    }
+
+    .footer{
+        position: initial;
+    }
+}
