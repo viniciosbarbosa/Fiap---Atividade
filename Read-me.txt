@@ -1,0 +1,1 @@
+Ola , Bootstrap , js , icons todos foram usado via cdn

@@ -1,0 +1,61 @@
+:root{
+    --preto:#1C1C1C;
+}
+
+.formulario{
+    padding: 15px 0px;
+    background: white;
+}
+
+.form-group label{
+    color: var(--preto);
+    font-family: 'Roboto Serif', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.form-group input , .form-group select , .form-group textarea{
+    border: 1px solid grey;
+}
+
+.form-group input::placeholder{
+    color: grey;
+    font-family: 'Roboto Serif', sans-serif;
+    font-style: italic;
+}
+
+.form-group select {
+    color: grey;
+    padding-top: 10px;
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+.form-group select option{
+    padding-top: 10px;
+}
+
+.btnForm{
+    background: rgb(0, 0, 2);
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin-top: 7px;
+    font-family: 'Roboto Serif', sans-serif;
+    color: white;
+    display: inline-flex;
+    font-weight: bold;
+    float: right;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.btnForm:hover{
+    text-decoration: none;
+    transform: scale(1.01);
+    color: whitesmoke
+}
+
+@media screen and (max-width:550px){
+    .btnForm{
+        float: left;
+    }
+}
